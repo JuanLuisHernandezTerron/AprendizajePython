@@ -21,7 +21,14 @@ print("Tu edad es:"+edad)
 
 #En Python no sirve el && o el || o el ! para decir que no, tendremos que utilizar and , or , not
  
-if (not numero == numeroAUX):
+if (numero != numeroAUX):
     print("Hola")
 else:
     print("Hola pepito")
+
+if (numero == 5):
+    print("Es 5")
+elif (numero == 15):
+    print("Es 15")
+else:
+    print("No es ninguno")
