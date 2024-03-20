@@ -24,3 +24,13 @@ print(cadena.upper())
 #Devulve true o false si la cadena empieza por el string que le pasamos por parámetro
 print(cadena.startswith("Hola"))
 
+#Podemos recorrer o cojer caracteres de un texto de esta manera
+print(cadena[5])
+cadenaAUX = [chart for chart in cadena]
+for indice,cadena in enumerate(cadenaAUX):
+    if (cadena == 'a'):
+        cadenaAUX[indice] = 'pepito'
+
+print(cadenaAUX)
+
+

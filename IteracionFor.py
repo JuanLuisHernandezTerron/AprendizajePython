@@ -29,4 +29,4 @@ ObjecAux = {
 
 for informacion in ObjecAux.items():
     print(informacion) #Devuelve un diccionario clave valor
-    print(f'Su nombre es {informacion[0]} y su apellidos es {informacion[1]}')
+    print(f'Su {informacion[0]} es {informacion[1]}')

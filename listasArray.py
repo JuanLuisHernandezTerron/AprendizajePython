@@ -15,7 +15,6 @@ print(len(mi_array))
 
 #para sacar cuantos valores hay repetidos en un array
 print(mi_array.count("pedro"))
-
 #con esto podemos instaciar variables con valores del array, pero tenemos que cojer todos los elementos o si no con [:numero], podremos cojer los valores que esten desde 0 hasta esa posicion.
 nombre1,nombre2,nombre3,nombre4 = mi_array
 
