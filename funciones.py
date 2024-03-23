@@ -12,8 +12,8 @@ def devolverNumeroPosicion(numero:str,posicion:int):
 while len(array_Ciudad) < 5:    
    anadirCiudad(input("Introduce la ciudad "))
 
-print(devolverNumeroPosicion(input('dime el numero '),input('dime que posicion quieres sacar ')))
 print(array_Ciudad)
+print(devolverNumeroPosicion(input('dime el numero '),input('dime que posicion quieres sacar ')))
 
 #Utilizaremos el parametro * para decir que transformaremos los datos pasados por parametros en una tupla
 def sumaNumeros(*lista):
@@ -26,4 +26,4 @@ print(sumaNumeros(5,8,7,9,2,3,1,5,4,6))
 def diccionario(**object):
     print(object)
 
-diccionario(nombre="Jose",apellidos="Ramon",edad=30) 
+diccionario(nombre="Jose",apellidos="Ramon",edad=30)
